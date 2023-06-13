@@ -4,6 +4,8 @@ from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import sys 
 import os 
+import xlrd
+import openpyxl
 
 st.set_page_config(page_title='Data Profiler',layout='wide')
 
